@@ -8,3 +8,7 @@
 ### 开发环境
 <br>Visual Studio 2015 or higher
 <br>Unity 3D 2017.2.0f3
+
+
+### note
+1. 上帝视角和第一人称视角的控制应该是不一样的.
