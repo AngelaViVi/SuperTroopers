@@ -23,7 +23,7 @@ public class ThirdPersonController : MonoBehaviour
     void Update()
     {
         if ((Input.GetKey(KeyCode.W)) || (Input.GetKey(KeyCode.S)) || (Input.GetKey(KeyCode.A)) ||
-            (Input.GetKey(KeyCode.D))|| (Input.GetAxis("Horizontal_Left")!=0))
+            (Input.GetKey(KeyCode.D))|| (Input.GetAxis("Horizontal")!=0))
         {
             float speed = MoveSpeed;
             if (!(Input.GetKey(KeyCode.LeftShift)))//走
